@@ -1,5 +1,5 @@
 <?php
-    define('PROTOCOL','http://');
+    define('PROTOCOL','https://');
     define('BASE_URL',$_SERVER['HTTP_HOST'].'/');
     define('SITE_URL',PROTOCOL.BASE_URL);
     define('IMG_URL',SITE_URL.'images/');
