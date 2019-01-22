@@ -56,7 +56,7 @@
 		    $success = 1;
 	      }
 
-	       echo $message.'___PAYLOAD___\n\n';
+	       echo '___PAYLOAD___'.$message;
 	  }
 
 	} else {
