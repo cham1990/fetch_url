@@ -1,0 +1,38 @@
+html, body { height:100%; }
+
+.outer-wrapper { 
+display: table;
+width: 100%;
+height: 100%;
+}
+
+.inner-wrapper {
+  display:table-cell;
+  vertical-align:middle;
+  padding:15px;
+}
+
+
+.inner-div{
+
+    background-color: #F0F0F0;
+    margin-top: 5%;
+    padding: 20px;
+
+}
+
+#progress_div {
+  color : #69D6B6;
+}
+
+.submit-btn {
+    background-color: #00CC99;
+    color: white;
+    border: 1px solid black;
+
+}
+
+.update-btn {
+    border: 1px solid #66D9AE;
+    color: #66D9AE;
+}
