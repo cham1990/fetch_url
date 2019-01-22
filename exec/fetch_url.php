@@ -1,6 +1,8 @@
 <?php
 	header('Content-Type: text/event-stream');
 
+        header('Connection: keep-alive');
+
 	// recommended to prevent caching of event data.
 	header('Cache-Control: no-cache'); 
 
@@ -54,7 +56,7 @@
 		    $success = 1;
 	      }
 
-	       echo '___PAYLOAD___'.$message;
+	       echo $message.'___PAYLOAD___\n\n';
 	  }
 
 	} else {
